@@ -1,0 +1,98 @@
+.bg {
+  margin: 0;
+}
+
+
+@font-face {
+  font-family: StoryElement;
+  src: url("../font/StoryElementRegular-X3RWa.ttf");
+}
+ul{
+  margin: 0;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover {background-color: #ff4b71;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
+}
+
+ul.social{
+  background-color: #bdbdbd;
+  list-style-type: none;
+  text-align: -moz-left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 50px;
+}
+ul.social li {float: left; padding: 14px 16px}
+
+ul.social li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.formulario{
+  width: 650px;
+  height: 700px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.icons{
+  background-color: #eeeeee;
+  width: 650px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  color:black;
+  border-radius: 5px;
+  margin-top: 50px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.icons th, td{
+  border: 1px solid black;
+  background-color: #90a4ae;
+  text-align: center;
+  border-radius: 5px;
+
+}
+
+.icons table, th, td{
+
+  border-color: white;
+}

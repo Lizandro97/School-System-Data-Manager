@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block body %}
+    <form method="POST">
+    <div align="center" class="formulario">
+        <h1>Datos Estudiante</h1>
+        <label>
+            Nombres
+
+            <input type="text" name="nombres">
+        </label>
+        <label>
+            Apellidos
+            <input type="text" name="apellidos">
+        </label>
+        <p></p>
+        <label>
+            Cédula
+            <input type="text" name="cedula">
+        </label>
+        <label>
+            Edad
+            <input type="text" name="edad">
+        </label>
+        <p></p>
+        <label>
+            Fecha de Nacimiento
+            <input type="date" name="fecha_nacimiento">
+        </label>
+        <label>
+            Pais
+            <input type="text" name="pais">
+        </label>
+        <p></p>
+        <label>
+            Ciudad
+            <input type="text" name="ciudad">
+        </label>
+        <label>
+            Provincia
+            <input type="text" name="provincia">
+        </label>
+        <p></p>
+        <label>
+            Teléfono
+            <input type="text" name="telefono">
+        </label>
+        <label>
+            Dirección
+            <input type="text" name="direccion">
+        </label>
+        <p></p>
+        <label>
+            Institución de Procedencia
+            <input type="text" name="institucion_proviene">
+        </label>
+        <label>
+            Sexo
+            <input type="text" name="sexo">
+        </label>
+        <p></p>
+        <label>
+            Estado
+            <input type="text" name="estado">
+        </label>
+        <label>
+            Número de Emergencia
+            <input type="text" name="emergencia">
+        </label>
+        <p></p>
+        <input type="submit" value="Enviar">
+        <input type="button" value="Salir">
+    </div>
+    </form>
+{% endblock %}

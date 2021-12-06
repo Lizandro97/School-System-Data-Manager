@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ data.title }}</title>
+    <link rel="stylesheet" href="{{ url_for("static", filename="css/layout.css") }}">
+</head>
+
+<body class="bg">
+    <div>
+        <ul class="social">
+            <li>Síguenos</li>
+            <li><a href="">asd</a></li>
+            <li><a href="">ads</a></li>
+            <li><a href="">asd</a></li>
+            <li><a href="">asd</a></li>
+            <li><a href="">asd</a></li>
+        </ul>
+    </div>
+
+    {% block body %}
+
+    {% endblock %}
+    <div class="bg">
+        <img src="{{ url_for("static", filename="img/wallpaper.jpg") }}" style='height: 100%; width: 100%; object-fit: contain' alt="">
+    </div>
+</body>
+</html>

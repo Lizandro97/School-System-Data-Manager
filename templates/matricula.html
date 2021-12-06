@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block body %}
+<div align="right" class="icons">
+        <h1>Sistema Integrado de Matrícula Fé y Alegría</h1>
+        <table>
+            <tr>
+                <td><a href="{{ url_for("index") }}"><img src="{{ url_for("static", filename="img/dasa.png") }}" alt=""></a>Inicio</td>
+                <td><a href="{{ url_for("form_estudiante") }}"><img src="{{ url_for("static", filename="img/estudiante.png") }}" alt=""></a>Cédula Estudiante</td>
+                <td><a href=""><img src="{{ url_for("static", filename="img/tramite_doc.png") }}" alt=""></a>Ficha de Matrícula</td>
+                <td><a href=""><img src="{{ url_for("static", filename="img/caja.png") }}" alt=""></a>Registro de Pago</td>
+            </tr>
+
+        </table>
+    </div>
+{% endblock %}
